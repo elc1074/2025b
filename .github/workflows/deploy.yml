@@ -55,7 +55,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           TZ: America/Los_Angeles
         run: |
-          cd 2024
+          cd 2025b
           hugo \
             --gc \
             --minify \
