@@ -7,9 +7,9 @@
                   <div class="box-masonry">
                       {{ if and (isset .Params "image") .Params.image }}
                         {{ if eq .Params.showonlyimage true }}
-                        <a href="{{ .RelPermalink }}" title="" class="box-masonry-image with-hover-overlay">
+                        <a href="{{ .Permalink }}" title="" class="box-masonry-image with-hover-overlay">
                         {{ else }}
-                        <a href="{{ .RelPermalink }}" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                        <a href="{{ .Permalink }}" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
                         {{ end }}
 
                             {{/* ---- IMAGE RESOLUTION LOGIC (Option 2) ---- */}}
@@ -20,14 +20,14 @@
 
                             {{ if $pageRes }}
                                 {{ $thumb := $pageRes.Resize "400x" }}
-                                <img src="{{ $thumb.RelPermalink }}" alt="" class="img-responsive" loading="lazy">
+                                <img src="{{ $thumb.Permalink }}" alt="" class="img-responsive" loading="lazy">
 
                             {{ else }}
 
                                 {{/* Try global asset in assets/images/<name> */}}
                                 {{ with resources.Get (printf "images/%s" $imgParam) }}
                                     {{ $thumb := .Resize "400x" }}
-                                    <img src="{{ $thumb.RelPermalink }}" alt="" class="img-responsive" loading="lazy">
+                                    <img src="{{ $thumb.Permalink }}" alt="" class="img-responsive" loading="lazy">
                                 {{ else }}
                                     {{/* 4. Last fallback: static /img/<name> (static/img) */}}
                                     <img src="{{ printf "/img/%s" $imgParam | relURL }}" alt="" class="img-responsive" loading="lazy">
