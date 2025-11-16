@@ -59,10 +59,10 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://elc1074.github.io/"
+            --baseURL "https://elc1074.github.io/2025b/"
           cd ..
-          mkdir /tmp/path          
-          cp -r 2025b/public /tmp/path/2025b
+          
+          cp -r 2025b/public /tmp/path
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
