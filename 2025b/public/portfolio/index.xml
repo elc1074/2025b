@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Projeto de Software II</title>
+    <link>//localhost:1313/portfolio/</link>
+    <description>Recent content in Portfolios on Projeto de Software II</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Nov 2025 09:41:19 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AcervoDLE</title>
+      <link>//localhost:1313/portfolio/group1/</link>
+      <pubDate>Sun, 16 Nov 2025 09:41:19 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/group1/</guid>
+      <description>&lt;p&gt;Desafios diários de arte com obras do Acervo Artístico da UFSM&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CavernAR</title>
+      <link>//localhost:1313/portfolio/group2/</link>
+      <pubDate>Sun, 16 Nov 2025 09:41:19 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/group2/</guid>
+      <description>&lt;p&gt;Realidade aumentada para o espaço imersivo &amp;ldquo;Caverna&amp;rdquo; do Acervo Artístico da UFSM&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sistema Big Five</title>
+      <link>//localhost:1313/portfolio/group3/</link>
+      <pubDate>Sun, 16 Nov 2025 09:41:19 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/group3/</guid>
+      <description>&lt;p&gt;Ferramenta de autoconhecimento para estudantes do Centro de Tecnologia da UFSM&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trajeto Cultural</title>
+      <link>//localhost:1313/portfolio/group4/</link>
+      <pubDate>Sun, 16 Nov 2025 09:41:19 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/group4/</guid>
+      <description>&lt;p&gt;Guia interativo e gamificado para o Acervo Artístico da UFSM.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projeto Andaime</title>
+      <link>//localhost:1313/portfolio/group5/</link>
+      <pubDate>Sun, 16 Nov 2025 09:41:19 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/group5/</guid>
+      <description>&lt;p&gt;Ferramenta de autoconhecimento para estudantes do Centro de Tecnologia da UFSM&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clube do Brinquedo</title>
+      <link>//localhost:1313/portfolio/group6/</link>
+      <pubDate>Sun, 16 Nov 2025 09:41:19 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/group6/</guid>
+      <description>&lt;p&gt;Aplicativo de compartilhamento de brinquedos&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Re.Brinque</title>
+      <link>//localhost:1313/portfolio/group7/</link>
+      <pubDate>Sun, 16 Nov 2025 09:41:19 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/group7/</guid>
+      <description>&lt;p&gt;Aplicativo para troca e doação de brinquedos&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Acervo 3D</title>
+      <link>//localhost:1313/portfolio/group8/</link>
+      <pubDate>Sun, 16 Nov 2025 09:41:19 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/group8/</guid>
+      <description>&lt;p&gt;Galeria virtual 3D do Acervo Artístico da UFSM&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mosai</title>
+      <link>//localhost:1313/portfolio/group9/</link>
+      <pubDate>Sun, 16 Nov 2025 09:41:19 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/group9/</guid>
+      <description>&lt;p&gt;Visualização alternativa das obras do Acervo Artístico da UFSM&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jogos do Acervo</title>
+      <link>//localhost:1313/portfolio/group10/</link>
+      <pubDate>Sun, 16 Nov 2025 09:41:19 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/group10/</guid>
+      <description>&lt;p&gt;Jogos digitais com obras do Acervo Artístico da UFSM&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
