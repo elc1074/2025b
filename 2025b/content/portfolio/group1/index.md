@@ -12,7 +12,7 @@ Desafios diários de arte com obras do Acervo Artístico da UFSM
 
 <!--more-->
 
-![](moho_follow_through2.gif)
+![](img/moho_follow_through2.gif)
 
 
 ## Descrição
