@@ -59,7 +59,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://elc1074.github.io/2025b/"
+            --baseURL "https://elc1074.github.io/"
           cd ..
           mkdir /tmp/path          
           cp -r 2025b/public /tmp/path/2025b
