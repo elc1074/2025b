@@ -12,7 +12,7 @@ Jogos digitais com obras do Acervo Artístico da UFSM
 
 <!--more-->
 
-![](moho_follow_through2.gif)
+![](../../img/moho_follow_through2.gif)
 
 
 ## Descrição
@@ -20,7 +20,7 @@ Jogos digitais com obras do Acervo Artístico da UFSM
 Plataforma que disponibiliza jogos digitais voltados à interação com as obras do Acervo Artístico da UFSM.
 
 
-Apresentação: preencha aqui o link para slides da apresentação final do projeto
+Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
 
 ---
 
@@ -29,8 +29,7 @@ Apresentação: preencha aqui o link para slides da apresentação final do proj
 Link: 
 https://ricardoferreiradasilva.github.io/acervo-artistico-jogos/
 
-Roteiro para testes:
-preencha aqui o link
+Roteiro para testes: [preencha aqui o link]()
 
 
 ---
@@ -48,7 +47,7 @@ preencha aqui o link
 
 ##### Outros links
 
-- Documento de visão: https://docs.google.com/document/d/1o6U5-rDX334Qg823a7ol4zFNgXts4ZPvlhDcvXwXlBM/
+- [Documento de visão](https://docs.google.com/document/d/1o6U5-rDX334Qg823a7ol4zFNgXts4ZPvlhDcvXwXlBM/)
 
 ---
 
@@ -57,4 +56,5 @@ preencha aqui o link
 - Ricardo Ferreira da Silva (SI / UFSM)
 - Fabrício Thomas Freitas Santos (SI / UFSM)
 - Prof. Celio Trois (DLSC / UFSM)
+- Adm. Rafael Happke (Acervo Artístico / UFSM)
 

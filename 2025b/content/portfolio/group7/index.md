@@ -12,7 +12,7 @@ Aplicativo para troca e doação de brinquedos
 
 <!--more-->
 
-![](moho_follow_through2.gif)
+![](../../img/moho_follow_through2.gif)
 
 
 ## Descrição
@@ -20,7 +20,7 @@ Aplicativo para troca e doação de brinquedos
 O projeto consiste em um app voltado para a troca e doação de brinquedos usados, com foco em sustentabilidade. A plataforma permite que pais e cuidadores cadastrem brinquedos, realizem buscas utilizando filtros e utilizem um chat integrado para negociações. O sistema foi projetado para uso principalmente em smartphones, mas também poderá ser utilizado em computadores e tablets, necessitando apenas de um navegador atualizado e conexão com a internet. 
 
 
-Apresentação: preencha aqui o link para slides da apresentação final do projeto
+Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
 
 ---
 
@@ -29,8 +29,7 @@ Apresentação: preencha aqui o link para slides da apresentação final do proj
 Link: 
 https://front-re-brinque.vercel.app/
 
-Roteiro para testes:
-https://docs.google.com/document/d/1ACcAKwQMlqKwla35QCqc924Tg8LfoODsbB0t89zPSFU
+Roteiro para testes: [link](https://docs.google.com/document/d/1ACcAKwQMlqKwla35QCqc924Tg8LfoODsbB0t89zPSFU)
 
 
 ---
@@ -50,7 +49,7 @@ https://docs.google.com/document/d/1ACcAKwQMlqKwla35QCqc924Tg8LfoODsbB0t89zPSFU
 
 ##### Outros links
 
-- Documento de visão  https://docs.google.com/document/d/13UFSCbl7IQcy7lQIkDLf2H-APW6SR1d-a2t-sp_QQxU/
+- [Documento de visão](https://docs.google.com/document/d/13UFSCbl7IQcy7lQIkDLf2H-APW6SR1d-a2t-sp_QQxU/)
 
 ---
 
@@ -61,4 +60,5 @@ https://docs.google.com/document/d/1ACcAKwQMlqKwla35QCqc924Tg8LfoODsbB0t89zPSFU
 - Gustavo Giacomini de Freitas (SI / UFSM)
 - Pedro Henrique Jovanowichs Vilanova (SI / UFSM)
 - Profª Andrea Charão (DLSC / UFSM)
+- Profª Débora Aita Gasparetto (DI / UFSM)
 

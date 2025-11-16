@@ -12,7 +12,7 @@ Realidade aumentada para o espaço imersivo "Caverna" do Acervo Artístico da UF
 
 <!--more-->
 
-![](moho_follow_through2.gif)
+![](../../img/moho_follow_through2.gif)
 
 
 ## Descrição
@@ -21,7 +21,7 @@ Um aplicativo web com Realidade Aumentada (AR) para enriquecer a experiência im
 Por meio de uma página web com acesso à câmera do smartphone, usuários podem criar e visualizar objetos 3D que ficam dispostos em salas virtuais.
 
 
-Apresentação: preencha aqui o link para slides da apresentação final do projeto
+Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
 
 ---
 
@@ -30,8 +30,7 @@ Apresentação: preencha aqui o link para slides da apresentação final do proj
 Link: 
 https://elc1074.github.io/AR-Cave-Immersion/
 
-Roteiro para testes:
-https://docs.google.com/document/d/1N3XB8_5PK_Bq5p7NUHRT_mdXPzJejZVTHEza0O9IGNQ/
+Roteiro para testes: [link](https://docs.google.com/document/d/1N3XB8_5PK_Bq5p7NUHRT_mdXPzJejZVTHEza0O9IGNQ/)
 
 
 ---
@@ -49,7 +48,7 @@ https://docs.google.com/document/d/1N3XB8_5PK_Bq5p7NUHRT_mdXPzJejZVTHEza0O9IGNQ/
 
 ##### Outros links
 
-- Documento de visão https://docs.google.com/document/d/1kMfcPXl1BqeJa6O4EGFn6ky5Nnw8WVLR8ayv5A04KPo
+- [Documento de visão](https://docs.google.com/document/d/1kMfcPXl1BqeJa6O4EGFn6ky5Nnw8WVLR8ayv5A04KPo)
 
 ---
 
@@ -60,4 +59,5 @@ https://docs.google.com/document/d/1N3XB8_5PK_Bq5p7NUHRT_mdXPzJejZVTHEza0O9IGNQ/
 - Kaio Vittor dos Santos Fernandes (SI / UFSM)
 - Lucas Medeiros Figueiredo dos Santos (SI / UFSM)
 - Profª Andrea Charão (DLSC / UFSM)
+- Adm. Rafael Happke (Acervo Artístico / UFSM)
 

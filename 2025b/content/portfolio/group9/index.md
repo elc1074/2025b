@@ -12,7 +12,7 @@ Visualização alternativa das obras do Acervo Artístico da UFSM
 
 <!--more-->
 
-![](moho_follow_through2.gif)
+![](../../img/moho_follow_through2.gif)
 
 
 ## Descrição
@@ -20,7 +20,7 @@ Visualização alternativa das obras do Acervo Artístico da UFSM
 Mosai é uma aplicação web desenvolvida para tornar a exploração do Acervo Artístico da Universidade Federal de Santa Maria mais agradável e acessível. O sistema utiliza dados provenientes da API do Tainacan para exibir as obras de forma organizada e visualmente atrativa, oferecendo ao público uma experiência de navegação fluida e intuitiva.
 
 
-Apresentação: preencha aqui o link para slides da apresentação final do projeto
+Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
 
 ---
 
@@ -29,8 +29,7 @@ Apresentação: preencha aqui o link para slides da apresentação final do proj
 Link: 
 https://acervoart-app.vercel.app/
 
-Roteiro para testes:
-https://docs.google.com/document/d/1R-srf08Tmw_L-eCBVa0kQbuexzCiH_tT/edit
+Roteiro para testes: [link](https://docs.google.com/document/d/1R-srf08Tmw_L-eCBVa0kQbuexzCiH_tT/edit)
 
 
 ---
@@ -48,7 +47,7 @@ https://docs.google.com/document/d/1R-srf08Tmw_L-eCBVa0kQbuexzCiH_tT/edit
 
 ##### Outros links
 
-- Documento de visão https://docs.google.com/document/d/1PRmRJPS03bC90eIqF2p7LV1O4Mhzk79roUAAPAwOmBI/edit?usp=drive_link
+- [Documento de visão](https://docs.google.com/document/d/1PRmRJPS03bC90eIqF2p7LV1O4Mhzk79roUAAPAwOmBI/edit?usp=drive_link)
 
 ---
 
@@ -56,4 +55,5 @@ https://docs.google.com/document/d/1R-srf08Tmw_L-eCBVa0kQbuexzCiH_tT/edit
 
 - Gabriel da Silva França (SI / UFSM)
 - Profª Andrea Charão (DLSC / UFSM)
+- Adm. Rafael Happke (Acervo Artístico / UFSM)
 

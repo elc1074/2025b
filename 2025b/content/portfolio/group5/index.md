@@ -12,7 +12,7 @@ Ferramenta de autoconhecimento para estudantes do Centro de Tecnologia da UFSM
 
 <!--more-->
 
-![](moho_follow_through2.gif)
+![](../../img/moho_follow_through2.gif)
 
 
 ## Descrição
@@ -20,17 +20,15 @@ Ferramenta de autoconhecimento para estudantes do Centro de Tecnologia da UFSM
 O Projeto Andaime é uma plataforma digital desenvolvida para a CAED/UFSM, com o objetivo de aplicar e gerenciar checklists de personalidade para graduandos, reunindo conhecimentos consolidados para ajudar graduandos a transformar suas características pessoais em recursos estratégicos para viver melhor e alcançar resultados consistentes nos estudos.O sistema permite que usuários (estudantes por enquanto) respondam formulários, obtenham feedback personalizado, visualizem históricos de respostas e acompanhem sua evolução ao longo do tempo.
 
 
-Apresentação: preencha aqui o link para slides da apresentação final do projeto
+Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
 
 ---
 
 ## Acesso
 
-Link: 
-https://caed-projeto-andaime-production.up.railway.app/
+Link: https://caed-projeto-andaime-production.up.railway.app/
 
-Roteiro para testes:
-https://docs.google.com/document/d/1nLfn7EYLQRGPxLGoTvQSt0RSeuQg-bC2/edit
+Roteiro para testes: [link](https://docs.google.com/document/d/1nLfn7EYLQRGPxLGoTvQSt0RSeuQg-bC2/)
 
 
 ---
@@ -49,7 +47,7 @@ https://docs.google.com/document/d/1nLfn7EYLQRGPxLGoTvQSt0RSeuQg-bC2/edit
 
 ##### Outros links
 
-- Documento de visão https://docs.google.com/document/d/1NQaTuG0Wc8VB9GAjHDeM-t2O6EZgmgxuxxv86j9kg5c/edit
+- [Documento de visão](https://docs.google.com/document/d/1NQaTuG0Wc8VB9GAjHDeM-t2O6EZgmgxuxxv86j9kg5c/)
 
 ---
 
@@ -59,5 +57,6 @@ https://docs.google.com/document/d/1nLfn7EYLQRGPxLGoTvQSt0RSeuQg-bC2/edit
 - Daniel Ferreira Schopf (SI / UFSM)
 - Diogo Antonio Bohrer Pereira (SI / UFSM)
 - Gabriel Amaral Rosa (SI / UFSM)
-- Profª Andrea Charão (DLSC / UFSM) e Psic. Renato Favarin dos Santos (CAED / UFSM)
+- Profª Andrea Charão (DLSC / UFSM)
+- Psic. Renato Favarin dos Santos (CAED / UFSM)
 

@@ -12,7 +12,7 @@ Aplicativo de compartilhamento de brinquedos
 
 <!--more-->
 
-![](moho_follow_through2.gif)
+![](../../img/moho_follow_through2.gif)
 
 
 ## Descrição
@@ -20,17 +20,15 @@ Aplicativo de compartilhamento de brinquedos
 Uma aplicação para negociar brinquedos usados.
 
 
-Apresentação: preencha aqui o link para slides da apresentação final do projeto
+Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
 
 ---
 
 ## Acesso
 
-Link: 
-Aguardando link para download do APK
+Link: [Aguardando link para download do APK]()
 
-Roteiro para testes:
-preencha aqui o link
+Roteiro para testes: [preencha aqui o link]()
 
 
 ---
@@ -49,7 +47,7 @@ preencha aqui o link
 
 ##### Outros links
 
-- Documento de visão https://docs.google.com/document/d/1215UxfR1SKXHtuBJZJxEv990UGG7Zt4gENwig1OALuE/edit
+- [Documento de visão](https://docs.google.com/document/d/1215UxfR1SKXHtuBJZJxEv990UGG7Zt4gENwig1OALuE/edit)
 
 ---
 
@@ -60,4 +58,4 @@ preencha aqui o link
 - Luis Henrique Cardoso Vangrostreis (SI / UFSM)
 - Inacio Camargo Buemo (SI / UFSM)
 - Prof. Celio Trois (DLSC / UFSM)
-
+- Profª Débora Aita Gasparetto (DI / UFSM)

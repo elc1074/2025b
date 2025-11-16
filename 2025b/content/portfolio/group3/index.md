@@ -12,7 +12,7 @@ Ferramenta de autoconhecimento para estudantes do Centro de Tecnologia da UFSM
 
 <!--more-->
 
-![](moho_follow_through2.gif)
+![](../../img/moho_follow_through2.gif)
 
 
 ## Descrição
@@ -20,7 +20,7 @@ Ferramenta de autoconhecimento para estudantes do Centro de Tecnologia da UFSM
 Um sistema para que os alunos do CT-UFSM possam conhecer mais sobre sua personalidade, com base no teste Big Five, recebendo informações e direcionamento contextualizados. 
 
 
-Apresentação: preencha aqui o link para slides da apresentação final do projeto
+Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
 
 ---
 
@@ -29,8 +29,7 @@ Apresentação: preencha aqui o link para slides da apresentação final do proj
 Link: 
 https://inpsyght.vercel.app/ 
 
-Roteiro para testes:
-https://docs.google.com/document/d/1g70HSDKgVyMAwxv29-rQruLunVCxbK123FR5a4OxT-4
+Roteiro para testes: [link](https://docs.google.com/document/d/1g70HSDKgVyMAwxv29-rQruLunVCxbK123FR5a4OxT-4)
 
 
 ---
@@ -49,7 +48,7 @@ https://docs.google.com/document/d/1g70HSDKgVyMAwxv29-rQruLunVCxbK123FR5a4OxT-4
 
 ##### Outros links
 
-- Documento de visão https://docs.google.com/document/d/1ozpQyVnE2gSzY0NtViSQSCrNRSEd7Aa66IEJGjvYLNY
+- [Documento de visão](https://docs.google.com/document/d/1ozpQyVnE2gSzY0NtViSQSCrNRSEd7Aa66IEJGjvYLNY)
 
 ---
 
@@ -59,5 +58,6 @@ https://docs.google.com/document/d/1g70HSDKgVyMAwxv29-rQruLunVCxbK123FR5a4OxT-4
 - Leandro Dalla Nora (SI / UFSM)
 - Lorenzo Facco Comunello (SI / UFSM)
 - Marcelo Azevedo (SI / UFSM)
-- Prof. Celio Trois (DLSC / UFSM) e Psic. Renato Favarin dos Santos (CAED / UFSM)
+- Prof. Celio Trois (DLSC / UFSM)
+- Psic. Renato Favarin dos Santos (CAED / UFSM)
 

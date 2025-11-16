@@ -12,7 +12,7 @@ Galeria virtual 3D do Acervo Artístico da UFSM
 
 <!--more-->
 
-![](moho_follow_through2.gif)
+![](../../img/moho_follow_through2.gif)
 
 
 ## Descrição
@@ -20,7 +20,7 @@ Galeria virtual 3D do Acervo Artístico da UFSM
 Uma galeria virtual que oferece uma experiência imersiva em 3D do Acervo Artístico da UFSM, permitindo ao público explorar exposições como em uma visita física. Para artistas e curadores, fornece ferramentas de curadoria digital para selecionar obras, posicioná-las no ambiente virtual e criar narrativas expositivas personalizadas.
 
 
-Apresentação: preencha aqui o link para slides da apresentação final do projeto
+Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
 
 ---
 
@@ -29,8 +29,7 @@ Apresentação: preencha aqui o link para slides da apresentação final do proj
 Link: 
 https://projetosoftware2.vercel.app/
 
-Roteiro para testes:
-preencha aqui o link
+Roteiro para testes: [preencha aqui o link]()
 
 
 ---
@@ -49,7 +48,7 @@ preencha aqui o link
 
 ##### Outros links
 
-- Documento de visão  https://docs.google.com/document/d/1yiKA9E-AfqIMHvN6vZSdjCYT7hy1hrtVQ77CLlVLtD8/
+- [Documento de visão](https://docs.google.com/document/d/1yiKA9E-AfqIMHvN6vZSdjCYT7hy1hrtVQ77CLlVLtD8/)
 
 ---
 
@@ -59,4 +58,5 @@ preencha aqui o link
 - Dante Dardaque Santos (SI / UFSM)
 - Heitor Argenta Preigschadt (SI / UFSM)
 - Prof. Celio Trois (DLSC / UFSM)
+- Adm. Rafael Happke (Acervo Artístico / UFSM)
 

@@ -21,7 +21,7 @@ Acervodle é uma aplicação web gamificada, proporcionando uma nova forma de o 
 Através de desafios e quizzes, o Acervodle permite que os usuários testem e aprofundem seus conhecimentos sobre as obras do acervo de maneira contínua e divertida.
 
 
-Apresentação: preencha aqui o link para slides da apresentação final do projeto
+Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
 
 ---
 
@@ -30,8 +30,7 @@ Apresentação: preencha aqui o link para slides da apresentação final do proj
 Link: 
 https://acervodle.vercel.app
 
-Roteiro para testes:
-https://docs.google.com/document/d/1QF9WiWB-enJJbimhTQYUfiXnugHnjXMaoU2WDh0n_j4/edit?usp=sharing
+Roteiro para testes: [link](https://docs.google.com/document/d/1QF9WiWB-enJJbimhTQYUfiXnugHnjXMaoU2WDh0n_j4/edit?usp=sharing)
 
 
 ---
@@ -50,8 +49,8 @@ https://docs.google.com/document/d/1QF9WiWB-enJJbimhTQYUfiXnugHnjXMaoU2WDh0n_j4/
 
 ##### Outros links
 
-- Documento de visão https://docs.google.com/document/d/1VI9R48e2lsK4ad5B519EgbOvcwqx6yf-v5qMf4QJqE8
-- Figma https://www.figma.com/design/LomT7aFixRkhNdVnXPZpwF/proj-soft2?node-id=0-1&t=SxYC4GwuKjdQmzsk-1/
+- [Documento de visão](https://docs.google.com/document/d/1VI9R48e2lsK4ad5B519EgbOvcwqx6yf-v5qMf4QJqE8)
+- [Figma](https://www.figma.com/design/LomT7aFixRkhNdVnXPZpwF/proj-soft2?node-id=0-1&t=SxYC4GwuKjdQmzsk-1/)
 
 ---
 
@@ -62,4 +61,5 @@ https://docs.google.com/document/d/1QF9WiWB-enJJbimhTQYUfiXnugHnjXMaoU2WDh0n_j4/
 - Felipe Da Cas Becker (CC / UFSM)
 - João Pedro Azenha Righi (CC / UFSM)
 - Prof. Celio Trois (DLSC / UFSM)
+- Adm. Rafael Happke (Acervo Artístico / UFSM)
 

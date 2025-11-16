@@ -8,11 +8,11 @@ weight = 4
 +++
 
 
-Guia interativo e gamificado para o Acervo Artístico da UFSM. 
+Guia interativo e gamificado para o Acervo Artístico da UFSM 
 
 <!--more-->
 
-![](moho_follow_through2.gif)
+![](../../img/moho_follow_through2.gif)
 
 
 ## Descrição
@@ -20,7 +20,7 @@ Guia interativo e gamificado para o Acervo Artístico da UFSM.
 Trajeto Cultural é um aplicativo web responsivo que funciona como um guia interativo e gamificado para o acervo artístico da UFSM. Através de um mapa interativo, o produto permite que visitantes localizem obras no campus, escolham entre roteiros predefinidos ou criem seus próprios trajetos personalizados. Ao interagir com uma obra, o visitante tem acesso a imagens, descrições detalhadas e curiosidades, ganhando pontos para uma experiência gamificada. O sistema foi concebido para ser simples, acessível e requer autenticação básica (sem dados pessoais).
 
 
-Apresentação: preencha aqui o link para slides da apresentação final do projeto
+Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
 
 ---
 
@@ -29,8 +29,7 @@ Apresentação: preencha aqui o link para slides da apresentação final do proj
 Link: 
 https://trajeto-cultural-frontend.vercel.app/
 
-Roteiro para testes:
-preencha aqui o link
+Roteiro para testes: [preencha aqui o link]()
 
 
 ---
@@ -50,7 +49,8 @@ preencha aqui o link
 
 ##### Outros links
 
-- Documento de visão https://docs.google.com/document/d/1cfFudhMe_C7cOFtl367jyX-6WNH9nZoY
+- [Documento de visão](https://docs.google.com/document/d/1cfFudhMe_C7cOFtl367jyX-6WNH9nZoY)
+- [Figma](https://www.figma.com/design/rBhg3SnJX3HMZKBVPNbpvl/Trajeto-cultural---Acervo-UFSM?node-id=0-1&t=EWtxWaVqBzy0lBBl-1)
 
 ---
 
@@ -61,4 +61,5 @@ preencha aqui o link
 - Renan Bordignon Poy (SI / UFSM)
 - Vitoria Luiza Camara (SI / UFSM)
 - Profª Andrea Charão (DLSC / UFSM)
+- Adm. Rafael Happke (Acervo Artístico / UFSM)
 
