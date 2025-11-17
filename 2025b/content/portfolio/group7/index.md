@@ -2,7 +2,7 @@
 showonlyimage = false
 draft = false
 date = "2025-11-16 09:41:19.550614"
-image = "mockuper.png"
+image = "canva-rebrinque.png"
 title = "Re.Brinque"
 weight = 7
 +++
