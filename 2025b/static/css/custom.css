@@ -1,0 +1,478 @@
+/* ===========================
+   Dark mode for 2025b gallery
+   =========================== */
+
+/* ---- Color tokens ---- */
+
+:root {
+  --bg-body: #020617;
+  --bg-alt: #020617;
+  --bg-elevated: #020617;
+  --bg-card: #020617;
+  --bg-chip: rgba(15, 23, 42, 0.85);
+  --border-subtle: rgba(148, 163, 184, 0.35);
+  --border-strong: rgba(148, 163, 184, 0.7);
+
+  --text-main: #e5e7eb;   /* almost white */
+  --text-muted: #9ca3af;
+  --text-soft: #6b7280;
+  --text-on-accent: #0b1120;
+
+	--accent: #5d30b8; /* purple */
+	--accent-soft: rgba(239, 82, 133, 0.18);
+	--accent-strong: #5d30b8;
+
+  --shadow-soft: 0 16px 40px rgba(15, 23, 42, 0.85);
+  --shadow-hover: 0 24px 55px rgba(15, 23, 42, 0.95);
+}
+
+/* Light mode fallback if you later decide to toggle
+   (works with: <html data-theme="light"> ) */
+
+html[data-theme="light"] {
+  --bg-body: #f7f7f7;
+  --bg-alt: #ffffff;
+  --bg-elevated: #ffffff;
+  --bg-card: #ffffff;
+  --bg-chip: rgba(15, 23, 42, 0.05);
+  --border-subtle: rgba(148, 163, 184, 0.3);
+  --border-strong: rgba(15, 23, 42, 0.18);
+
+  --text-main: #111827;
+  --text-muted: #4b5563;
+  --text-soft: #6b7280;
+  --text-on-accent: #0b1120;
+
+  --accent: #5d30b8; /* purple */
+	--accent-soft: rgba(239, 82, 133, 0.18);
+	--accent-strong: #5d30b8;
+
+  --shadow-soft: 0 12px 30px rgba(15, 23, 42, 0.15);
+  --shadow-hover: 0 18px 40px rgba(15, 23, 42, 0.22);
+}
+
+/* Respect system preference if you *don’t* set data-theme on <html> */
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    --bg-body: #f7f7f7;
+    --bg-alt: #ffffff;
+    --bg-elevated: #ffffff;
+    --bg-card: #ffffff;
+    --bg-chip: rgba(15, 23, 42, 0.05);
+    --border-subtle: rgba(148, 163, 184, 0.3);
+    --border-strong: rgba(15, 23, 42, 0.18);
+
+    --text-main: #111827;
+    --text-muted: #4b5563;
+    --text-soft: #6b7280;
+    --text-on-accent: #0b1120;
+
+    --accent: #5d30b8; /* purple */
+	  --accent-soft: rgba(239, 82, 133, 0.18);
+	  --accent-strong: #5d30b8;
+
+    --shadow-soft: 0 12px 30px rgba(15, 23, 42, 0.15);
+    --shadow-hover: 0 18px 40px rgba(15, 23, 42, 0.22);
+  }
+}
+
+/* ---- Global layout ---- */
+
+body {
+  background:
+    radial-gradient(circle at top, #0f172a 0, #020617 50%, #000000 100%);
+  color: var(--text-main);
+}
+
+/* text */
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-main);
+}
+
+p, li, small {
+  color: var(--text-muted);
+}
+
+/* links */
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.18s ease, opacity 0.18s ease;
+}
+
+a:hover,
+a:focus {
+  color: var(--accent-strong);
+}
+
+/* ---- Navbar / header / footer ---- */
+
+/* The theme usually uses .navbar-default and .navbar */
+
+.navbar,
+.navbar-default {
+  background: rgba(15, 23, 42, 0.92);
+  border-color: rgba(31, 41, 55, 0.9);
+  box-shadow: 0 1px 0 rgba(15, 23, 42, 0.9);
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: var(--text-main);
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a {
+  color: var(--accent);
+  background-color: transparent;
+}
+
+/* Footer text */
+
+footer,
+.site-footer {
+  background: #020617;
+  color: var(--text-soft);
+  border-top: 1px solid rgba(15, 23, 42, 0.95);
+}
+
+/* ---- Page content column  ---- */
+
+.content-column {
+	background: #15092f;
+}
+
+
+/* ---- Portfolio masonry cards ---- */
+
+/* main container items (usually .masonry-item -> .box-masonry) */
+
+.masonry-item {
+  padding: 10px;
+}
+
+.box-masonry {
+  background: var(--bg-card);
+  border-radius: 18px;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+  transform: translateY(0);
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease,
+    background 0.22s ease;
+}
+
+/* hover lift */
+
+.box-masonry:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--accent-soft);
+  background: radial-gradient(circle at top, #020617 0, #020617 40%, #020617 100%);
+}
+
+/* Thumbnail image area */
+
+.box-masonry .box-masonry-hover-center {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  opacity: 0;
+  padding-left: 20px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-align: center;
+}
+.box-masonry .box-masonry-hover-center .see-more-icon {
+  color: #555555;
+  font-size: 50px;
+}
+.box-masonry:hover {
+  box-shadow: 0 0 5px #999;
+}
+.box-masonry:hover .box-masonry-hover-text-header {
+  opacity: 1;
+}
+.box-masonry:hover .box-masonry-hover-center {
+  opacity: 1;
+}
+.box-masonry:hover .box-masonry-image.with-hover-overlay:before {
+  opacity: 0.8;
+}
+.box-masonry:hover .box-masonry-image.with-hover-icon:after {
+  opacity: 0.7;
+}
+
+/* .box-masonry-image img,
+.box-masonry .img-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.85);
+  filter: saturate(0.9) contrast(1.02);
+  transition:
+    transform 0.28s ease,
+    filter 0.28s ease,
+    opacity 0.28s ease;
+} */
+
+.box-masonry .box-masonry-image.with-hover-overlay:before {
+  display: block;
+  position: absolute;
+  content: " ";
+  background: #fff;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.box-masonry .box-masonry-image.with-hover-icon:after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  font-family: 'FontAwesome';
+  content: '\f105';
+  text-align: center;
+  font-size: 50px;
+  color: #555555;
+}
+.box-masonry .box-masonry-image:hover {
+  text-decoration: none;
+}
+/* .box-masonry:hover .box-masonry-image img,
+.box-masonry:hover .img-responsive {
+  transform: scale(1.02);
+  filter: saturate(1.1) contrast(1.06);
+} */
+
+/* Overlay states (with-hover-overlay / with-hover-icon) */
+
+/* .box-masonry-image.with-hover-overlay::after,
+.box-masonry-image.with-hover-overlay.with-hover-icon::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(15, 23, 42, 0.0),
+    rgba(15, 23, 42, 0.85)
+  );
+} */
+
+/* Title + text */
+
+.box-masonry-text {
+  padding: 1.25rem 1.35rem 1.3rem;
+}
+
+.box-masonry-text h4,
+.box-masonry-text h4 a {
+  color: var(--text-main);
+  font-weight: 600;
+  margin-top: 0.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.box-masonry-text p {
+  margin-bottom: 0.7rem;
+}
+
+/* subtle divider between description and meta */
+
+.box-masonry-text hr {
+  border: 0;
+  border-top: 1px solid rgba(30, 64, 175, 0.35);
+  margin: 0.7rem 0 0.5rem;
+}
+
+/* ---- Tags / tech stack pills ---- */
+
+.project-tags,
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+}
+
+.project-tag,
+.project-tech,
+.label {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  background: var(--bg-chip);
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  color: var(--text-soft);
+}
+
+/* highlight for “featured” etc., if you use a class */
+
+.project-tag--featured {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  border-color: rgba(56, 189, 248, 0.7);
+}
+
+/* ---- Links inside cards (“Demo”, “Código”, etc.) ---- */
+
+.box-masonry-text a.btn-link,
+.box-masonry-text a.read-more,
+.box-masonry-text a.project-link {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--accent);
+}
+
+.box-masonry-text a.btn-link::after,
+.box-masonry-text a.read-more::after,
+.box-masonry-text a.project-link::after {
+  content: " ↗";
+  opacity: 0.5;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.box-masonry-text a.btn-link:hover::after,
+.box-masonry-text a.read-more:hover::after,
+.box-masonry-text a.project-link:hover::after {
+  opacity: 1;
+  transform: translateX(1px);
+}
+
+/* ---- “Section” headings: home title, subtitles ---- */
+
+.heading,
+.section-heading,
+.page-title,
+h1.site-title {
+  color: var(--text-main);
+}
+
+.lead,
+.subtitle {
+  color: var(--text-soft);
+}
+
+/* Sidebar menu */
+.sidebar-content a:hover {
+	color: var(--accent-strong);
+}
+.sidebar-heading a:hover {
+	border-bottom: dotted 1px #5d30b8;
+	color: #5d30b8; 
+	text-decoration: none;
+}
+.sidebar-heading a {
+	color: #5d30b8; 
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+.sidebar-menu li.active a {
+	color: #5d30b8;  
+  font-weight: bold;
+}
+.sidebar-menu li.active:before {
+	color: #5d30b8;  
+}
+.sidebar-menu li:hover a {
+  text-decoration: none;
+	color: #5d30b8;  
+}
+.sidebar-menu li:hover:before {
+	color: #5d30b8;  
+}
+
+
+
+.content-column a:hover {
+	color: var(--accent-strong);
+}
+.content-column a {
+	color: var(--accent);
+}
+a:hover, a:focus {
+	color: var(--accent-strong);
+}
+.content-column.white-background {
+	background: #15092f;
+	min-height: 100vh;
+}
+
+
+/* ---- Mobile tweaks ---- */
+
+@media (max-width: 767px) {
+  .masonry-item {
+    padding: 8px 6px;
+  }
+
+  .box-masonry {
+    border-radius: 14px;
+  }
+
+  .box-masonry-text {
+    padding: 0.95rem 1rem 1rem;
+  }
+}
+
+/* ===========================
+   Optional: Theme toggle button
+   =========================== */
+
+/* If you add a button with id="theme-toggle" in your layout,
+   this styles it as a small pill in the top-right corner. */
+
+.theme-toggle {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 9999;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: rgba(15, 23, 42, 0.92);
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(16px);
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+.theme-toggle__icon {
+  font-size: 0.9rem;
+}
