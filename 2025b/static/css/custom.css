@@ -51,31 +51,7 @@ html[data-theme="light"] {
   --shadow-hover: 0 18px 40px rgba(15, 23, 42, 0.22);
 }
 
-/* Respect system preference if you *don’t* set data-theme on <html> */
 
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme]) {
-    --bg-body: #f7f7f7;
-    --bg-alt: #ffffff;
-    --bg-elevated: #ffffff;
-    --bg-card: #ffffff;
-    --bg-chip: rgba(15, 23, 42, 0.05);
-    --border-subtle: rgba(148, 163, 184, 0.3);
-    --border-strong: rgba(15, 23, 42, 0.18);
-
-    --text-main: #111827;
-    --text-muted: #4b5563;
-    --text-soft: #6b7280;
-    --text-on-accent: #0b1120;
-
-    --accent: #5d30b8; /* purple */
-	  --accent-soft: rgba(239, 82, 133, 0.18);
-	  --accent-strong: #5d30b8;
-
-    --shadow-soft: 0 12px 30px rgba(15, 23, 42, 0.15);
-    --shadow-hover: 0 18px 40px rgba(15, 23, 42, 0.22);
-  }
-}
 
 /* ---- Global layout ---- */
 

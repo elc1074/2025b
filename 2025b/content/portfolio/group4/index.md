@@ -2,7 +2,7 @@
 showonlyimage = false
 draft = false
 date = "2025-11-16 09:41:19.550408"
-image = "aguardando.png"
+image = "trajeto-cultural.png"
 title = "Trajeto Cultural"
 weight = 4
 +++
@@ -12,7 +12,10 @@ Guia interativo e gamificado para o Acervo Artístico da UFSM
 
 <!--more-->
 
-![](../../img/moho_follow_through2.gif)
+<video controls preload="metadata" style="max-width: 100%; border-radius: 12px;">
+  <source src="trajeto-cultural.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 ## Descrição
@@ -20,7 +23,7 @@ Guia interativo e gamificado para o Acervo Artístico da UFSM
 Trajeto Cultural é um aplicativo web responsivo que funciona como um guia interativo e gamificado para o acervo artístico da UFSM. Através de um mapa interativo, o produto permite que visitantes localizem obras no campus, escolham entre roteiros predefinidos ou criem seus próprios trajetos personalizados. Ao interagir com uma obra, o visitante tem acesso a imagens, descrições detalhadas e curiosidades, ganhando pontos para uma experiência gamificada. O sistema foi concebido para ser simples, acessível e requer autenticação básica (sem dados pessoais).
 
 
-Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
+Apresentação: [link](https://www.canva.com/design/DAG4ewtGppg/iQ3JTbPNF-Hht05yQGHwyA/edit?utm_content=DAG4ewtGppg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
@@ -29,7 +32,7 @@ Apresentação: [preencha aqui o link para slides da apresentação final do pro
 Link: 
 https://trajeto-cultural-frontend.vercel.app/
 
-Roteiro para testes: [preencha aqui o link]()
+Roteiro para testes: [link](https://docs.google.com/document/d/1OVD7QD2SGSnH0svrVxgGPn1LW2chYBni/edit?usp=sharing&ouid=111679497826785810277&rtpof=true&sd=true)
 
 
 ---
