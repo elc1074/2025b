@@ -2,7 +2,7 @@
 showonlyimage = false
 draft = false
 date = "2025-11-16 09:41:19.550475"
-image = "aguardando.png"
+image = "mockup_image.png"
 title = "Projeto Andaime"
 weight = 5
 +++
@@ -12,7 +12,7 @@ Ferramenta de autoconhecimento para estudantes do Centro de Tecnologia da UFSM
 
 <!--more-->
 
-![](../../img/moho_follow_through2.gif)
+![](gif_pacaact_menos_qualidade.gif)
 
 
 ## Descrição
@@ -20,7 +20,7 @@ Ferramenta de autoconhecimento para estudantes do Centro de Tecnologia da UFSM
 O Projeto Andaime é uma plataforma digital desenvolvida para a CAED/UFSM, com o objetivo de aplicar e gerenciar checklists de personalidade para graduandos, reunindo conhecimentos consolidados para ajudar graduandos a transformar suas características pessoais em recursos estratégicos para viver melhor e alcançar resultados consistentes nos estudos.O sistema permite que usuários (estudantes por enquanto) respondam formulários, obtenham feedback personalizado, visualizem históricos de respostas e acompanhem sua evolução ao longo do tempo.
 
 
-Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
+Apresentação: [link](https://www.canva.com/design/DAG5JOsmIbU/cT9BEC5saykPwgu41ey6TA/edit?utm_content=DAG5JOsmIbU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
@@ -37,9 +37,10 @@ Roteiro para testes: [link](https://docs.google.com/document/d/1nLfn7EYLQRGPxLGo
 
 ##### Tecnologias
 
-- Front-end: JavaScript, HTML
-- Back-end: Python, Flask
-- Deploy: Railway (front / back)
+- Front-end: HTML + CSS + JavaScript + Bootstrap5
+- Back-end: Python + Django + Rest Framework 
+- Database: SQLite3
+- Deploy: Railway com GUnicorn
 
 ##### Repositórios
 
