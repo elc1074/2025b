@@ -3,7 +3,7 @@ showonlyimage = false
 draft = false
 date = "2025-11-16 09:41:19.550475"
 image = "mockup_image.png"
-title = "Projeto Andaime"
+title = "Projeto PACAAT"
 weight = 5
 +++
 
@@ -17,7 +17,7 @@ Ferramenta de autoconhecimento para estudantes do Centro de Tecnologia da UFSM
 
 ## Descrição
 
-O Projeto Andaime é uma plataforma digital desenvolvida para a CAED/UFSM, com o objetivo de aplicar e gerenciar checklists de personalidade para graduandos, reunindo conhecimentos consolidados para ajudar graduandos a transformar suas características pessoais em recursos estratégicos para viver melhor e alcançar resultados consistentes nos estudos.O sistema permite que usuários (estudantes por enquanto) respondam formulários, obtenham feedback personalizado, visualizem históricos de respostas e acompanhem sua evolução ao longo do tempo.
+O Projeto PACAAT é uma plataforma digital desenvolvida para a CAED/UFSM, com o objetivo de aplicar e gerenciar checklists de personalidade para graduandos, reunindo conhecimentos consolidados para ajudar graduandos a transformar suas características pessoais em recursos estratégicos para viver melhor e alcançar resultados consistentes nos estudos. O sistema permite que usuários (estudantes por enquanto) respondam formulários, obtenham feedback personalizado, visualizem históricos de respostas e acompanhem sua evolução ao longo do tempo.
 
 
 Apresentação: [link](https://www.canva.com/design/DAG5JOsmIbU/cT9BEC5saykPwgu41ey6TA/edit?utm_content=DAG5JOsmIbU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
