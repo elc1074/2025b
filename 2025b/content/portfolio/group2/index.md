@@ -2,7 +2,7 @@
 showonlyimage = false
 draft = false
 date = "2025-11-16 09:41:19.550228"
-image = "aguardando.png"
+image = "image.png"
 title = "CavernAR"
 weight = 2
 +++
@@ -12,7 +12,7 @@ Realidade aumentada para o espaço imersivo "Caverna" do Acervo Artístico da UF
 
 <!--more-->
 
-![](../../img/moho_follow_through2.gif)
+![](Animacao.gif)
 
 
 ## Descrição
@@ -21,7 +21,7 @@ Um aplicativo web com Realidade Aumentada (AR) para enriquecer a experiência im
 Por meio de uma página web com acesso à câmera do smartphone, usuários podem criar e visualizar objetos 3D que ficam dispostos em salas virtuais.
 
 
-Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
+Apresentação: [link](https://www.canva.com/design/DAG5qB6C84c/H_A65gI_4m1YDdBfgrbm_Q/edit?utm_content=DAG5qB6C84c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
@@ -39,8 +39,10 @@ Roteiro para testes: [link](https://docs.google.com/document/d/1N3XB8_5PK_Bq5p7N
 
 ##### Tecnologias
 
-- HTML, JavaScript, CSS, Three.js
-- Deploy: GitHub Pages (front) / (back)
+- HTML, CSS e Javascript compõem a base da aplicação, pois é uma aplicação web
+- Toda a geometria 3D é renderizada através da biblioteca Three.js, com componentes de realidade aumentada do framework WebXR
+- Para o banco de dados, utilizamos a plataforma de desenvolvimento Supabase que utiliza PostgreSQL e autenticação
+- Para o deploy do front utilizamos Github Pages e deploy do back utilizamos a plataforma Render
 
 ##### Repositórios
 
