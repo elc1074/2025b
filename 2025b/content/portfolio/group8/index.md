@@ -24,7 +24,7 @@ Galeria virtual 3D do Acervo Artístico da UFSM
 Uma galeria virtual que oferece uma experiência imersiva em 3D do Acervo Artístico da UFSM, permitindo ao público explorar exposições como em uma visita física. Para artistas e curadores, fornece ferramentas de curadoria digital para selecionar obras, posicioná-las no ambiente virtual e criar narrativas expositivas personalizadas.
 
 
-Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
+Apresentação: [link](https://docs.google.com/presentation/d/1CRMIqvd1tIawJ8OXFM496JM2k8BB_LVouxoBKQ9p4jQ/edit?usp=sharing)
 
 ---
 
