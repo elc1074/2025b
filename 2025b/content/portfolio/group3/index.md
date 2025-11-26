@@ -41,9 +41,12 @@ Roteiro para testes: [link](https://docs.google.com/document/d/1g70HSDKgVyMAwxv2
 
 ##### Tecnologias
 
-- Front-end: JavaScript, HTML
-- Back-end: Python, Flask
-- Deploy: Vercel (front) / Render (back)
+- Front-end: Next + TailwindCSS
+- Back-end: Node + Strapi
+- Banco de dados: PostgreSQL
+- Deploy: Vercel (front) / Render (back) / Supabase (database)
+
+
 
 ##### Repositórios
 
