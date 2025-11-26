@@ -12,7 +12,11 @@ Desafios diários de arte com obras do Acervo Artístico da UFSM
 
 <!--more-->
 
-![](../../img/moho_follow_through2.gif)
+<video controls preload="metadata" style="max-width: 100%; border-radius: 12px;">
+  <source src="video_acervodle.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 
 ## Descrição
@@ -21,7 +25,7 @@ Acervodle é uma aplicação web gamificada, proporcionando uma nova forma de o 
 Através de desafios e quizzes, o Acervodle permite que os usuários testem e aprofundem seus conhecimentos sobre as obras do acervo de maneira contínua e divertida.
 
 
-Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
+Apresentação: [link](https://docs.google.com/presentation/d/171MF7NVhyIE14Z98hTOb3-4uTrtnm6VpAH3fJw-C8aA/edit?slide=id.p1#slide=id.p1)
 
 ---
 
@@ -39,9 +43,11 @@ Roteiro para testes: [link](https://docs.google.com/document/d/1QF9WiWB-enJJbimh
 
 ##### Tecnologias
 
-- Front-end: preencha aqui as tecnologias usadas no desenvolvimento do front-end, por exemplo, JavaScript, ReactJS, HTML
-- Back-end: API Tainacan
-- Deploy: Vercel (front)
+- Desenvolvimento: React.js, Node.js, MongoDB, OpenStreetMap, API Tainacan e Python
+- Deploy: Vercel 
+
+
+
 
 ##### Repositórios
 
