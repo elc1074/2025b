@@ -20,7 +20,7 @@ Aplicativo para troca e doação de brinquedos
 O projeto consiste em um app voltado para a troca e doação de brinquedos usados, com foco em sustentabilidade. A plataforma permite que pais e cuidadores cadastrem brinquedos, realizem buscas utilizando filtros e utilizem um chat integrado para negociações. O sistema foi projetado para uso principalmente em smartphones, mas também poderá ser utilizado em computadores e tablets, necessitando apenas de um navegador atualizado e conexão com a internet. 
 
 
-Apresentação: [preencha aqui o link para slides da apresentação final do projeto]()
+Apresentação: [link](https://gamma.app/docs/ReBrinque-Transformando-Brincadeiras-Preservando-o-Planeta-11wcj2o85d2p0iy)
 
 ---
 
@@ -38,9 +38,13 @@ Roteiro para testes: [link](https://docs.google.com/document/d/1ACcAKwQMlqKwla35
 
 ##### Tecnologias
 
-- Front-end: NextJS, TypeScript
+- Front-end: Next.js/ReactJS, TypeScript, TailwindCSS, Shadcn, TanStackQuery, Zod, React hook form
 - Back-end: Node.js, Express, PostgreSQL
-- Deploy: Vercel, Render, Cloudinary
+- Deploy/serviços: Vercel, Render, Cloudinary
+
+
+
+
 
 ##### Repositórios
 
